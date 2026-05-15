@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f5f0e8;
+  color: #333;
+}
+
+.hero {
+  min-height: 100vh;
+  background: #f5f0e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  color: #333;
+}
+
+.hello {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  color: #888;
+  font-family: 'Fraunces', serif;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-family: 'Fraunces', serif;
+  color: #222;
+}
+
+.tagline {
+  font-size: 16px;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 32px;
+}
+
+.btn {
+  background: #222;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.btn.small {
+  padding: 8px 18px;
+  font-size: 13px;
+  background: #222;
+  color: white;
+  margin-right: 8px;
+  margin-top: 12px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #222;
+  color: #222;
+}
+
+.section {
+  padding: 60px 24px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section.alt {
+  background: #eee8dc;
+  max-width: 100%;
+  padding: 60px 24px;
+}
+
+.section.alt .section-title,
+.section.alt .skills-grid,
+.section.alt .project-card {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-card {
+  background: #f5f0e8;
+  border: 2px solid #333;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.learnings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.learning-card {
+  background: #f5f0e8;
+  border-left: 4px solid #333;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.project-card {
+  background: #f5f0e8;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.project-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+  font-family: 'Fraunces', serif;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  background: #222;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #aaa;
+  font-size: 13px;
+  background: #f5f0e8;
+}
