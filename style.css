@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #fdf0f0;
+  color: #333;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #f9e0e0, #fdf0f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  color: #333;
+}
+
+.hello {
+  font-size: 18px;
+  font-weight: 300;
+  color: #b07070;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #222;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 12px;
+}
+
+.tagline {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.hero-tags {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.hero-tags span {
+  background: white;
+  border: 1px solid #e8c4c4;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  color: #b07070;
+}
+
+.btn {
+  background: #c47c7c;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.btn.small {
+  padding: 8px 18px;
+  font-size: 13px;
+  background: #c47c7c;
+  color: white;
+  margin-right: 8px;
+  margin-top: 12px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #c47c7c;
+  color: #c47c7c;
+}
+
+.section {
+  padding: 60px 24px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section.alt {
+  background: #f9e0e0;
+  max-width: 100%;
+  padding: 60px 24px;
+}
+
+.section.alt .section-title,
+.section.alt .skills-grid,
+.section.alt .project-card {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+}
+
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-text-box {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #555;
+}
+
+.about-interests {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.interest-card {
+  background: #f9e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 14px;
+  color: #555;
+}
+
+.interest-card span {
+  font-weight: 600;
+  color: #c47c7c;
+  margin-left: 6px;
+  font-size: 15px;
+}
+
+.interest-card p {
+  margin-top: 4px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.poem-section {
+  text-align: center;
+}
+
+.poem-box {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 2px 12px rgba(196,124,124,0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.poem-text {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 2;
+  color: #444;
+}
+
+.poem-credit {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #c47c7c;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-card {
+  background: white;
+  border: 2px solid #e8c4c4;
+  color: #c47c7c;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.learnings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.learning-card {
+  background: white;
+  border-left: 4px solid #c47c7c;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.project-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(196,124,124,0.1);
+}
+
+.project-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+  font-family: 'Fraunces', serif;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.contact-note {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  background: #c47c7c;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #c4a0a0;
+  font-size: 13px;
+  font-style: italic;
+  background: #fdf0f0;
+}
